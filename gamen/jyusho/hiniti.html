@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <from action="kekka.html" method="post">
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" href="hiniti.css">
+</head>
+<body>
+  <a href="../toppage/toppage.html">TOP</a>
+  ><a href="jyusho.php">住所入力</a>>日にち<br>
+  <input type="date"  name="hiniti">
+  <h2>希望時間帯（複数選択可）</h2>
+  <div>
+    <input type="checkbox" id="AM" name="tims" value="AM" />
+    <label for="AM">午前</label>
+  </div>
+  <div>
+    <input type="checkbox" id="PM" name="tims" value="PM" />
+    <label for="PM">午後～15:00</label>
+  </div>
+  <div>
+    <input type="checkbox" id="PM2" name="tims" value="PM2" />
+    <label for="PM2">15:00以降</label>
+  </div>
+  
+  <button onclick="window.open('jyusho.php')">戻る</button>
+
+  <button onclick="window.open('../plan/plan.php')">決定</button>
+</body>
+</from>
+</html>

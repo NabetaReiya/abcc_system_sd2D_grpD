@@ -1,0 +1,15 @@
+.inner {
+    max-width: 1000px;
+    width: 97%;
+    margin: 0 auto;
+  }
+.main{
+    text-align: center;
+}
+.main2{
+    text-align: left;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
